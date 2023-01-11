@@ -70,15 +70,15 @@ public class p10478 {
 			remain--;
 		}
 	}
-}
 
-class Node {
-	public Node(String name) {
-		this.name = name;
+	private static class Node {
+		public Node(String name) {
+			this.name = name;
+		}
+
+		public String name;
+		public int multiplier = 1;
+		public Node next;
+		public Node previous;
 	}
-
-	public String name;
-	public int multiplier = 1;
-	public Node next;
-	public Node previous;
 }
